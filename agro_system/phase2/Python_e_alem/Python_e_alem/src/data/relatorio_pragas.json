@@ -1,0 +1,47 @@
+[
+    {
+        "cultura": "Abacaxi",
+        "cidade": "Contagem",
+        "data": "2025-04-21T14:53:41.847753",
+        "temperatura": 26.44,
+        "umidade": 58,
+        "risco": "baixo",
+        "recomendacao": "Nenhuma ação é necessária no momento"
+    },
+    {
+        "cultura": "Algodão",
+        "cidade": "Betim",
+        "data": "2025-04-21T14:53:51.924495",
+        "temperatura": 27.26,
+        "umidade": 54,
+        "risco": "baixo",
+        "recomendacao": "Nenhuma ação é necessária no momento"
+    },
+    {
+        "cultura": "Arroz",
+        "cidade": "São Paulo",
+        "data": "2025-04-21T14:54:05.890312",
+        "temperatura": 21.64,
+        "umidade": 75,
+        "risco": "baixo",
+        "recomendacao": "Nenhuma ação é necessária no momento"
+    },
+    {
+        "cultura": "Soja",
+        "cidade": "Contagem",
+        "data": "2025-11-05T13:30:24.674443",
+        "temperatura": 32.0,
+        "umidade": 50,
+        "risco": "baixo",
+        "recomendacao": "Nenhuma ação é necessária no momento"
+    },
+    {
+        "cultura": "Melancia",
+        "cidade": "Contagem",
+        "data": "2025-11-05T13:30:38.781244",
+        "temperatura": 32.0,
+        "umidade": 50,
+        "risco": "baixo",
+        "recomendacao": "Nenhuma ação é necessária no momento"
+    }
+]

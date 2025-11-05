@@ -1,0 +1,50 @@
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              Contagem
+Data:                2025-04-21T14:53:41.847753
+Temperatura:         26.44°C
+Umidade:             58%
+Nível de Risco:      BAIXO
+Recomendação:        Nenhuma ação é necessária no momento
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Algodão
+Cidade:              Betim
+Data:                2025-04-21T14:53:51.924495
+Temperatura:         27.26°C
+Umidade:             54%
+Nível de Risco:      BAIXO
+Recomendação:        Nenhuma ação é necessária no momento
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Arroz
+Cidade:              São Paulo
+Data:                2025-04-21T14:54:05.890312
+Temperatura:         21.64°C
+Umidade:             75%
+Nível de Risco:      BAIXO
+Recomendação:        Nenhuma ação é necessária no momento
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Soja
+Cidade:              Contagem
+Data:                2025-11-05T13:30:24.674443
+Temperatura:         32.0°C
+Umidade:             50%
+Nível de Risco:      BAIXO
+Recomendação:        Nenhuma ação é necessária no momento
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Melancia
+Cidade:              Contagem
+Data:                2025-11-05T13:30:38.781244
+Temperatura:         32.0°C
+Umidade:             50%
+Nível de Risco:      BAIXO
+Recomendação:        Nenhuma ação é necessária no momento
+----------------------------------------

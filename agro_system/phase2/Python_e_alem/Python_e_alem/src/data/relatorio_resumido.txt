@@ -1,0 +1,5 @@
+Abacaxi         | BAIXO      | Nenhuma ação é necessária no momento
+Algodão         | BAIXO      | Nenhuma ação é necessária no momento
+Arroz           | BAIXO      | Nenhuma ação é necessária no momento
+Soja            | BAIXO      | Nenhuma ação é necessária no momento
+Melancia        | BAIXO      | Nenhuma ação é necessária no momento
