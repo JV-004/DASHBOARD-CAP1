@@ -43,5 +43,14 @@
         "umidade": 50,
         "risco": "baixo",
         "recomendacao": "Nenhuma ação é necessária no momento"
+    },
+    {
+        "cultura": "Milho",
+        "cidade": "Contagem",
+        "data": "2025-11-05T13:40:02.013381",
+        "temperatura": 31.44,
+        "umidade": 49,
+        "risco": "baixo",
+        "recomendacao": "Nenhuma ação é necessária no momento"
     }
 ]

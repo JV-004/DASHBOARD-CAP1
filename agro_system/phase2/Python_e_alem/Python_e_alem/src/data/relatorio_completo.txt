@@ -48,3 +48,13 @@ Umidade:             50%
 Nível de Risco:      BAIXO
 Recomendação:        Nenhuma ação é necessária no momento
 ----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Milho
+Cidade:              Contagem
+Data:                2025-11-05T13:40:02.013381
+Temperatura:         31.44°C
+Umidade:             49%
+Nível de Risco:      BAIXO
+Recomendação:        Nenhuma ação é necessária no momento
+----------------------------------------
