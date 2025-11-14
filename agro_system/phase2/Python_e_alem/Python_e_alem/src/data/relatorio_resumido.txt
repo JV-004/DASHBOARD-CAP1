@@ -4,3 +4,4 @@ Arroz           | BAIXO      | Nenhuma ação é necessária no momento
 Soja            | BAIXO      | Nenhuma ação é necessária no momento
 Melancia        | BAIXO      | Nenhuma ação é necessária no momento
 Milho           | BAIXO      | Nenhuma ação é necessária no momento
+Abacaxi         | BAIXO      | Nenhuma ação é necessária no momento

@@ -52,5 +52,14 @@
         "umidade": 49,
         "risco": "baixo",
         "recomendacao": "Nenhuma ação é necessária no momento"
+    },
+    {
+        "cultura": "Abacaxi",
+        "cidade": "Contagem",
+        "data": "2025-11-10T14:13:09.585344",
+        "temperatura": 22.55,
+        "umidade": 71,
+        "risco": "baixo",
+        "recomendacao": "Nenhuma ação é necessária no momento"
     }
 ]

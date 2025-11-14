@@ -1,0 +1,814 @@
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              Contagem
+Data:                2025-11-10T15:05:19.337917
+Temperatura:         None°C
+Umidade:             None%
+Nível de Risco:      Desconhecido
+Recomendação:        Recomendação não disponível
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              Contagem
+Data:                2025-11-10T15:08:32.435922
+Temperatura:         None°C
+Umidade:             None%
+Nível de Risco:      Desconhecido
+Recomendação:        Recomendação não disponível
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              Betim
+Data:                2025-11-10T15:08:46.449429
+Temperatura:         None°C
+Umidade:             None%
+Nível de Risco:      Desconhecido
+Recomendação:        Recomendação não disponível
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              Betim
+Data:                2025-11-10T15:09:01.462007
+Temperatura:         None°C
+Umidade:             None%
+Nível de Risco:      Desconhecido
+Recomendação:        Recomendação não disponível
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Café
+Cidade:              Betim
+Data:                2025-11-10T15:09:07.474457
+Temperatura:         23.93°C
+Umidade:             63%
+Nível de Risco:      BAIXO
+Recomendação:        Nenhuma ação é necessária no momento
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Café
+Cidade:              Betim
+Data:                2025-11-10T15:09:13.250780
+Temperatura:         None°C
+Umidade:             None%
+Nível de Risco:      Desconhecido
+Recomendação:        Recomendação não disponível
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              Belo Horizonte
+Data:                2025-11-10T15:09:27.954100
+Temperatura:         23.57°C
+Umidade:             70%
+Nível de Risco:      BAIXO
+Recomendação:        Nenhuma ação é necessária no momento
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Batata
+Cidade:              Belo Horizonte
+Data:                2025-11-10T15:09:30.220023
+Temperatura:         23.57°C
+Umidade:             70%
+Nível de Risco:      BAIXO
+Recomendação:        Nenhuma ação é necessária no momento
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Batata
+Cidade:              Belo Horizonte
+Data:                2025-11-10T15:09:35.498868
+Temperatura:         None°C
+Umidade:             None%
+Nível de Risco:      Desconhecido
+Recomendação:        Recomendação não disponível
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              Betim
+Data:                2025-11-10T15:09:52.043582
+Temperatura:         23.93°C
+Umidade:             63%
+Nível de Risco:      BAIXO
+Recomendação:        Nenhuma ação é necessária no momento
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Pimentão
+Cidade:              Betim
+Data:                2025-11-10T15:10:03.295578
+Temperatura:         23.93°C
+Umidade:             63%
+Nível de Risco:      BAIXO
+Recomendação:        Nenhuma ação é necessária no momento
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Pimentão
+Cidade:              Betim
+Data:                2025-11-10T15:10:03.718450
+Temperatura:         None°C
+Umidade:             None%
+Nível de Risco:      Desconhecido
+Recomendação:        Recomendação não disponível
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              Belo Horizonte
+Data:                2025-11-10T15:10:23.052559
+Temperatura:         None°C
+Umidade:             None%
+Nível de Risco:      Desconhecido
+Recomendação:        Recomendação não disponível
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              Contagem
+Data:                2025-11-10T15:16:55.580776
+Temperatura:         22.55°C
+Umidade:             71%
+Nível de Risco:      BAIXO
+Recomendação:        Nenhuma ação é necessária no momento
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              Contagem
+Data:                2025-11-10T15:16:55.869885
+Temperatura:         None°C
+Umidade:             None%
+Nível de Risco:      Desconhecido
+Recomendação:        Recomendação não disponível
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              Contagem
+Data:                2025-11-10T15:17:40.166090
+Temperatura:         22.55°C
+Umidade:             71%
+Nível de Risco:      BAIXO
+Recomendação:        Nenhuma ação é necessária no momento
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              Contagem
+Data:                2025-11-10T15:17:40.263405
+Temperatura:         None°C
+Umidade:             None%
+Nível de Risco:      Desconhecido
+Recomendação:        Recomendação não disponível
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              Contagem
+Data:                2025-11-10T15:19:26.432460
+Temperatura:         None°C
+Umidade:             None%
+Nível de Risco:      Desconhecido
+Recomendação:        Recomendação não disponível
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              Contagem
+Data:                2025-11-10T15:21:06.545050
+Temperatura:         None°C
+Umidade:             None%
+Nível de Risco:      Desconhecido
+Recomendação:        Recomendação não disponível
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              Contagem
+Data:                2025-11-10T15:26:15.357444
+Temperatura:         22.55°C
+Umidade:             71%
+Nível de Risco:      BAIXO
+Recomendação:        Nenhuma ação é necessária no momento
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              Contagem
+Data:                2025-11-10T15:26:20.919520
+Temperatura:         None°C
+Umidade:             None%
+Nível de Risco:      Desconhecido
+Recomendação:        Recomendação não disponível
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              
+Data:                2025-11-10T15:26:27.098807
+Temperatura:         None°C
+Umidade:             None%
+Nível de Risco:      Desconhecido
+Recomendação:        Recomendação não disponível
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              Betim
+Data:                2025-11-10T15:26:33.987902
+Temperatura:         None°C
+Umidade:             None%
+Nível de Risco:      Desconhecido
+Recomendação:        Recomendação não disponível
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              Betim
+Data:                2025-11-10T15:26:36.233525
+Temperatura:         None°C
+Umidade:             None%
+Nível de Risco:      Desconhecido
+Recomendação:        Recomendação não disponível
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              Betim
+Data:                2025-11-10T15:26:39.080920
+Temperatura:         None°C
+Umidade:             None%
+Nível de Risco:      Desconhecido
+Recomendação:        Recomendação não disponível
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              Contagem
+Data:                2025-11-10T15:40:40.485126
+Temperatura:         None°C
+Umidade:             None%
+Nível de Risco:      Desconhecido
+Recomendação:        Recomendação não disponível
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              Beitm
+Data:                2025-11-10T15:40:55.471643
+Temperatura:         None°C
+Umidade:             None%
+Nível de Risco:      Desconhecido
+Recomendação:        Recomendação não disponível
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              Beitm Sdfs
+Data:                2025-11-10T15:40:58.658507
+Temperatura:         None°C
+Umidade:             None%
+Nível de Risco:      Desconhecido
+Recomendação:        Recomendação não disponível
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              Beitm Sdfs
+Data:                2025-11-10T15:41:00.843887
+Temperatura:         None°C
+Umidade:             None%
+Nível de Risco:      Desconhecido
+Recomendação:        Recomendação não disponível
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              Sdasdsdfs
+Data:                2025-11-10T15:41:04.099907
+Temperatura:         None°C
+Umidade:             None%
+Nível de Risco:      Desconhecido
+Recomendação:        Recomendação não disponível
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              Sdasdsdfs
+Data:                2025-11-10T15:41:05.225208
+Temperatura:         None°C
+Umidade:             None%
+Nível de Risco:      Desconhecido
+Recomendação:        Recomendação não disponível
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              Asdasd
+Data:                2025-11-10T15:41:11.539128
+Temperatura:         None°C
+Umidade:             None%
+Nível de Risco:      Desconhecido
+Recomendação:        Recomendação não disponível
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              Betim
+Data:                2025-11-10T15:41:49.495432
+Temperatura:         23.93°C
+Umidade:             63%
+Nível de Risco:      BAIXO
+Recomendação:        Nenhuma ação é necessária no momento
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              Belo Horizonte
+Data:                2025-11-10T15:42:10.277116
+Temperatura:         None°C
+Umidade:             None%
+Nível de Risco:      Desconhecido
+Recomendação:        Recomendação não disponível
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              Contagem
+Data:                2025-11-10T15:42:19.809893
+Temperatura:         23.11°C
+Umidade:             70%
+Nível de Risco:      BAIXO
+Recomendação:        Nenhuma ação é necessária no momento
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              Contagem
+Data:                2025-11-10T15:42:23.896648
+Temperatura:         None°C
+Umidade:             None%
+Nível de Risco:      Desconhecido
+Recomendação:        Recomendação não disponível
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              Betim
+Data:                2025-11-10T15:42:34.253792
+Temperatura:         23.93°C
+Umidade:             63%
+Nível de Risco:      BAIXO
+Recomendação:        Nenhuma ação é necessária no momento
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              Betim
+Data:                2025-11-10T15:42:35.683125
+Temperatura:         None°C
+Umidade:             None%
+Nível de Risco:      Desconhecido
+Recomendação:        Recomendação não disponível
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              Betim
+Data:                2025-11-10T15:43:05.159940
+Temperatura:         None°C
+Umidade:             None%
+Nível de Risco:      Desconhecido
+Recomendação:        Recomendação não disponível
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              Betim
+Data:                2025-11-10T15:43:07.568060
+Temperatura:         23.93°C
+Umidade:             63%
+Nível de Risco:      BAIXO
+Recomendação:        Nenhuma ação é necessária no momento
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              Betim
+Data:                2025-11-10T15:43:48.383070
+Temperatura:         None°C
+Umidade:             None%
+Nível de Risco:      Desconhecido
+Recomendação:        Recomendação não disponível
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              Betim
+Data:                2025-11-10T15:46:25.697100
+Temperatura:         None°C
+Umidade:             None%
+Nível de Risco:      Desconhecido
+Recomendação:        Recomendação não disponível
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              Betim
+Data:                2025-11-10T15:46:47.073442
+Temperatura:         None°C
+Umidade:             None%
+Nível de Risco:      Desconhecido
+Recomendação:        Recomendação não disponível
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              Betim
+Data:                2025-11-10T15:47:08.690067
+Temperatura:         23.93°C
+Umidade:             63%
+Nível de Risco:      BAIXO
+Recomendação:        Nenhuma ação é necessária no momento
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              Betim
+Data:                2025-11-10T15:47:19.567332
+Temperatura:         23.93°C
+Umidade:             63%
+Nível de Risco:      BAIXO
+Recomendação:        Nenhuma ação é necessária no momento
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              Betim
+Data:                2025-11-10T15:47:23.820017
+Temperatura:         23.93°C
+Umidade:             63%
+Nível de Risco:      BAIXO
+Recomendação:        Nenhuma ação é necessária no momento
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              Betim
+Data:                2025-11-10T15:47:27.320143
+Temperatura:         None°C
+Umidade:             None%
+Nível de Risco:      Desconhecido
+Recomendação:        Recomendação não disponível
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              Betim
+Data:                2025-11-10T15:47:31.206602
+Temperatura:         23.93°C
+Umidade:             63%
+Nível de Risco:      BAIXO
+Recomendação:        Nenhuma ação é necessária no momento
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              Contagem
+Data:                2025-11-10T15:48:11.021245
+Temperatura:         None°C
+Umidade:             None%
+Nível de Risco:      Desconhecido
+Recomendação:        Recomendação não disponível
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              Contagem
+Data:                2025-11-10T15:48:11.392761
+Temperatura:         23.11°C
+Umidade:             70%
+Nível de Risco:      BAIXO
+Recomendação:        Nenhuma ação é necessária no momento
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              Contagem
+Data:                2025-11-10T15:48:13.176271
+Temperatura:         23.11°C
+Umidade:             70%
+Nível de Risco:      BAIXO
+Recomendação:        Nenhuma ação é necessária no momento
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              Rio De Janeiro
+Data:                2025-11-10T15:48:21.612487
+Temperatura:         None°C
+Umidade:             None%
+Nível de Risco:      Desconhecido
+Recomendação:        Recomendação não disponível
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              Rio De Janeiro
+Data:                2025-11-10T15:48:22.071461
+Temperatura:         23.2°C
+Umidade:             58%
+Nível de Risco:      BAIXO
+Recomendação:        Nenhuma ação é necessária no momento
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              Humaita
+Data:                2025-11-10T15:48:28.781605
+Temperatura:         None°C
+Umidade:             None%
+Nível de Risco:      Desconhecido
+Recomendação:        Recomendação não disponível
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              Humaita
+Data:                2025-11-10T15:48:29.229971
+Temperatura:         30.49°C
+Umidade:             61%
+Nível de Risco:      BAIXO
+Recomendação:        Nenhuma ação é necessária no momento
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              
+Data:                2025-11-10T17:57:39.539311
+Temperatura:         None°C
+Umidade:             None%
+Nível de Risco:      Desconhecido
+Recomendação:        Recomendação não disponível
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              
+Data:                2025-11-10T18:08:41.033509
+Temperatura:         None°C
+Umidade:             None%
+Nível de Risco:      Desconhecido
+Recomendação:        Recomendação não disponível
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              Contagem
+Data:                2025-11-10T18:09:02.005370
+Temperatura:         None°C
+Umidade:             None%
+Nível de Risco:      Desconhecido
+Recomendação:        Recomendação não disponível
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              Contagem
+Data:                2025-11-10T18:09:02.454223
+Temperatura:         20.89°C
+Umidade:             77%
+Nível de Risco:      BAIXO
+Recomendação:        Nenhuma ação é necessária no momento
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              
+Data:                2025-11-10T18:10:12.571247
+Temperatura:         None°C
+Umidade:             None%
+Nível de Risco:      Desconhecido
+Recomendação:        Recomendação não disponível
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              
+Data:                2025-11-10T18:26:31.780278
+Temperatura:         None°C
+Umidade:             None%
+Nível de Risco:      Desconhecido
+Recomendação:        Recomendação não disponível
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              
+Data:                2025-11-10T18:41:24.856186
+Temperatura:         None°C
+Umidade:             None%
+Nível de Risco:      Desconhecido
+Recomendação:        Recomendação não disponível
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              
+Data:                2025-11-10T18:41:30.756102
+Temperatura:         None°C
+Umidade:             None%
+Nível de Risco:      Desconhecido
+Recomendação:        Recomendação não disponível
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              
+Data:                2025-11-10T18:41:34.396114
+Temperatura:         None°C
+Umidade:             None%
+Nível de Risco:      Desconhecido
+Recomendação:        Recomendação não disponível
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              Contagem
+Data:                2025-11-10T18:42:17.405118
+Temperatura:         None°C
+Umidade:             None%
+Nível de Risco:      Desconhecido
+Recomendação:        Recomendação não disponível
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              Contagem
+Data:                2025-11-10T18:42:17.806606
+Temperatura:         19.78°C
+Umidade:             80%
+Nível de Risco:      BAIXO
+Recomendação:        Nenhuma ação é necessária no momento
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              Contagem
+Data:                2025-11-10T18:42:27.125763
+Temperatura:         19.78°C
+Umidade:             80%
+Nível de Risco:      BAIXO
+Recomendação:        Nenhuma ação é necessária no momento
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              
+Data:                2025-11-10T18:42:32.916637
+Temperatura:         None°C
+Umidade:             None%
+Nível de Risco:      Desconhecido
+Recomendação:        Recomendação não disponível
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              Betim
+Data:                2025-11-10T18:42:42.614947
+Temperatura:         None°C
+Umidade:             None%
+Nível de Risco:      Desconhecido
+Recomendação:        Recomendação não disponível
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              
+Data:                2025-11-10T18:44:14.529057
+Temperatura:         None°C
+Umidade:             None%
+Nível de Risco:      Desconhecido
+Recomendação:        Recomendação não disponível
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              
+Data:                2025-11-10T18:44:47.601477
+Temperatura:         None°C
+Umidade:             None%
+Nível de Risco:      Desconhecido
+Recomendação:        Recomendação não disponível
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              
+Data:                2025-11-10T19:03:35.584738
+Temperatura:         None°C
+Umidade:             None%
+Nível de Risco:      Desconhecido
+Recomendação:        Recomendação não disponível
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              
+Data:                2025-11-10T19:07:35.838434
+Temperatura:         None°C
+Umidade:             None%
+Nível de Risco:      Desconhecido
+Recomendação:        Recomendação não disponível
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              
+Data:                2025-11-10T19:07:40.158800
+Temperatura:         None°C
+Umidade:             None%
+Nível de Risco:      Desconhecido
+Recomendação:        Recomendação não disponível
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              Humaitá
+Data:                2025-11-10T19:09:18.786690
+Temperatura:         None°C
+Umidade:             None%
+Nível de Risco:      Desconhecido
+Recomendação:        Recomendação não disponível
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              
+Data:                2025-11-10T19:09:27.639170
+Temperatura:         None°C
+Umidade:             None%
+Nível de Risco:      Desconhecido
+Recomendação:        Recomendação não disponível
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              Contagem
+Data:                2025-11-10T19:18:59.835136
+Temperatura:         19.22°C
+Umidade:             82%
+Nível de Risco:      BAIXO
+Recomendação:        Nenhuma ação é necessária no momento
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              Betim
+Data:                2025-11-10T19:19:12.801642
+Temperatura:         20.04°C
+Umidade:             78%
+Nível de Risco:      BAIXO
+Recomendação:        Nenhuma ação é necessária no momento
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              Humaitá
+Data:                2025-11-10T19:19:26.141404
+Temperatura:         24.14°C
+Umidade:             94%
+Nível de Risco:      MÉDIO
+Recomendação:        Monitore diariamente e considere a aplicação de defensivos preventivos
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              Contagem
+Data:                2025-11-10T19:20:56.499245
+Temperatura:         19.22°C
+Umidade:             82%
+Nível de Risco:      BAIXO
+Recomendação:        Nenhuma ação é necessária no momento
+----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             abacaxi
+Cidade:              contagem
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Feijão
+Cidade:              Contagem
+Data:                2025-11-10T19:30:27.865640
+Temperatura:         19.22°C
+Umidade:             83%
+Nível de Risco:      BAIXO
+Recomendação:        Nenhuma ação é necessária no momento
+----------------------------------------

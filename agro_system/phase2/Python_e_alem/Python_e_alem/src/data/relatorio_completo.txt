@@ -58,3 +58,13 @@ Umidade:             49%
 Nível de Risco:      BAIXO
 Recomendação:        Nenhuma ação é necessária no momento
 ----------------------------------------
+
+-=-=-=- Alerta Salvo -=-=-=-
+Cultura:             Abacaxi
+Cidade:              Contagem
+Data:                2025-11-10T14:13:09.585344
+Temperatura:         22.55°C
+Umidade:             71%
+Nível de Risco:      BAIXO
+Recomendação:        Nenhuma ação é necessária no momento
+----------------------------------------

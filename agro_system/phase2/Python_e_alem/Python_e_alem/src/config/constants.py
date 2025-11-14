@@ -26,3 +26,4 @@ RECOMENDACOES = {
 LISTAS_CULTURAS = ['Abacaxi', 'Algodão', 'Arroz', 'Banana', 'Batata', 'Café',
                 'Feijão', 'Laranja', 'Manga', 'Maracujá', 'Melancia', 'Milho',
                 'Pimentão', 'Soja', 'Tomate']
+

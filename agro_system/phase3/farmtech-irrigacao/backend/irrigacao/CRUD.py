@@ -53,6 +53,23 @@ def enviar():
     """, (datetime.now(), umidade, pH, fosforo, potassio, bomba_ativa))
     conn.commit()
 
+st.title('Ligadior e Desligador de Bomba de Água 2.000')
+
+st.markdown('''
+#### Condições para ligar a bomba 💣 (de água💦)
+
+1. **Umidade:** menor que 30
+2. **pH:** entre 5 e 7
+3. **Minerais:** Fósforo e Potássio
+
+⚠️ **Obs.** Qualquer outra configuração retornará a bomba desligada
+```python
+if umidade < 30 and 5 <= pH <= 7 and fosforo == 1 and potassio == 1:
+    bomba_ativa = 1
+	st.success('Bomba **LIGADA**')
+```
+''')
+
 st.subheader("Digite os valores do Monitor Serial do Wokwi:")
 
 def registro(prefix="default"):

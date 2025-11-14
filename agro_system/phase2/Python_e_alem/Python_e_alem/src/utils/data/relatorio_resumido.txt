@@ -1,0 +1,80 @@
+Abacaxi         | Desconhecido | Recomendação não disponível
+Abacaxi         | Desconhecido | Recomendação não disponível
+Abacaxi         | Desconhecido | Recomendação não disponível
+Café            | BAIXO      | Nenhuma ação é necessária no momento
+Café            | Desconhecido | Recomendação não disponível
+Abacaxi         | BAIXO      | Nenhuma ação é necessária no momento
+Batata          | BAIXO      | Nenhuma ação é necessária no momento
+Batata          | Desconhecido | Recomendação não disponível
+Abacaxi         | BAIXO      | Nenhuma ação é necessária no momento
+Pimentão        | BAIXO      | Nenhuma ação é necessária no momento
+Pimentão        | Desconhecido | Recomendação não disponível
+Abacaxi         | Desconhecido | Recomendação não disponível
+Abacaxi         | BAIXO      | Nenhuma ação é necessária no momento
+Abacaxi         | Desconhecido | Recomendação não disponível
+Abacaxi         | BAIXO      | Nenhuma ação é necessária no momento
+Abacaxi         | Desconhecido | Recomendação não disponível
+Abacaxi         | Desconhecido | Recomendação não disponível
+Abacaxi         | Desconhecido | Recomendação não disponível
+Abacaxi         | BAIXO      | Nenhuma ação é necessária no momento
+Abacaxi         | Desconhecido | Recomendação não disponível
+Abacaxi         | Desconhecido | Recomendação não disponível
+Abacaxi         | Desconhecido | Recomendação não disponível
+Abacaxi         | Desconhecido | Recomendação não disponível
+Abacaxi         | Desconhecido | Recomendação não disponível
+Abacaxi         | Desconhecido | Recomendação não disponível
+Abacaxi         | Desconhecido | Recomendação não disponível
+Abacaxi         | Desconhecido | Recomendação não disponível
+Abacaxi         | Desconhecido | Recomendação não disponível
+Abacaxi         | Desconhecido | Recomendação não disponível
+Abacaxi         | Desconhecido | Recomendação não disponível
+Abacaxi         | Desconhecido | Recomendação não disponível
+Abacaxi         | BAIXO      | Nenhuma ação é necessária no momento
+Abacaxi         | Desconhecido | Recomendação não disponível
+Abacaxi         | BAIXO      | Nenhuma ação é necessária no momento
+Abacaxi         | Desconhecido | Recomendação não disponível
+Abacaxi         | BAIXO      | Nenhuma ação é necessária no momento
+Abacaxi         | Desconhecido | Recomendação não disponível
+Abacaxi         | Desconhecido | Recomendação não disponível
+Abacaxi         | BAIXO      | Nenhuma ação é necessária no momento
+Abacaxi         | Desconhecido | Recomendação não disponível
+Abacaxi         | Desconhecido | Recomendação não disponível
+Abacaxi         | Desconhecido | Recomendação não disponível
+Abacaxi         | BAIXO      | Nenhuma ação é necessária no momento
+Abacaxi         | BAIXO      | Nenhuma ação é necessária no momento
+Abacaxi         | BAIXO      | Nenhuma ação é necessária no momento
+Abacaxi         | Desconhecido | Recomendação não disponível
+Abacaxi         | BAIXO      | Nenhuma ação é necessária no momento
+Abacaxi         | Desconhecido | Recomendação não disponível
+Abacaxi         | BAIXO      | Nenhuma ação é necessária no momento
+Abacaxi         | BAIXO      | Nenhuma ação é necessária no momento
+Abacaxi         | Desconhecido | Recomendação não disponível
+Abacaxi         | BAIXO      | Nenhuma ação é necessária no momento
+Abacaxi         | Desconhecido | Recomendação não disponível
+Abacaxi         | BAIXO      | Nenhuma ação é necessária no momento
+Abacaxi         | Desconhecido | Recomendação não disponível
+Abacaxi         | Desconhecido | Recomendação não disponível
+Abacaxi         | Desconhecido | Recomendação não disponível
+Abacaxi         | BAIXO      | Nenhuma ação é necessária no momento
+Abacaxi         | Desconhecido | Recomendação não disponível
+Abacaxi         | Desconhecido | Recomendação não disponível
+Abacaxi         | Desconhecido | Recomendação não disponível
+Abacaxi         | Desconhecido | Recomendação não disponível
+Abacaxi         | Desconhecido | Recomendação não disponível
+Abacaxi         | Desconhecido | Recomendação não disponível
+Abacaxi         | BAIXO      | Nenhuma ação é necessária no momento
+Abacaxi         | BAIXO      | Nenhuma ação é necessária no momento
+Abacaxi         | Desconhecido | Recomendação não disponível
+Abacaxi         | Desconhecido | Recomendação não disponível
+Abacaxi         | Desconhecido | Recomendação não disponível
+Abacaxi         | Desconhecido | Recomendação não disponível
+Abacaxi         | Desconhecido | Recomendação não disponível
+Abacaxi         | Desconhecido | Recomendação não disponível
+Abacaxi         | Desconhecido | Recomendação não disponível
+Abacaxi         | Desconhecido | Recomendação não disponível
+Abacaxi         | Desconhecido | Recomendação não disponível
+Abacaxi         | BAIXO      | Nenhuma ação é necessária no momento
+Abacaxi         | BAIXO      | Nenhuma ação é necessária no momento
+Abacaxi         | MÉDIO      | Monitore diariamente e considere a aplicação de defensivos preventivos
+Abacaxi         | BAIXO      | Nenhuma ação é necessária no momento
+Feijão          | BAIXO      | Nenhuma ação é necessária no momento

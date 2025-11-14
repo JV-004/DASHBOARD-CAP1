@@ -1,14 +1,25 @@
 import json
 from datetime import datetime
+import os
+
+base_dir = os.path.dirname(__file__)
+caminho = os.path.join(base_dir, 'data', 'relatorio_completo.txt')
+caminho_resumido = os.path.join(base_dir, 'data', 'relatorio_resumido.txt')
+caminho_json = os.path.join(base_dir, 'data', 'relatorio_pragas.json')
 
 def relatorio_completo_txt(alerta):
+    os.makedirs(os.path.dirname(caminho), exist_ok=True)
     """
     Gera um arquivo txt com o relatório completo com
     todos os dados relevantes coletados para a prevenção contra pragas e as recomendações
 
     Dados de entrada: lista alertas que contem todos os dados relevantes
     """
-    with open('Python_e_alem/src/data/relatorio_completo.txt', 'a', encoding='utf-8') as arquivo:
+
+    with open(caminho, 'a', encoding='utf-8') as arquivo:
+#       conteudo = arquivo.read()
+
+#    with open('Python_e_alem/src/data/relatorio_completo.txt', 'a', encoding='utf-8') as arquivo:
         arquivo.write('\n-=-=-=- Alerta Salvo -=-=-=-\n')
         arquivo.write(f"{'Cultura:':<20} {alerta['cultura']}\n")
         arquivo.write(f"{'Cidade:':<20} {alerta['cidade']}\n")
@@ -32,6 +43,18 @@ def relatorio_resumido_txt(alerta):
         linha = f"{alerta['cultura']:<15} | {risco:<10} | {alerta['recomendacao']}\n"
         arquivo.write(linha)
 
+def relatorio_resumido_txt(alerta):
+    """
+    Adiciona linha ao relatório resumido (cultura | risco | recomendação)
+    """
+    # Garante que a pasta 'data' existe
+    os.makedirs(os.path.dirname(caminho_resumido), exist_ok=True)
+
+    with open(caminho_resumido, 'a', encoding='utf-8') as arquivo:
+        risco = alerta['risco'].upper() if alerta['risco'] else 'Desconhecido'
+        linha = f"{alerta['cultura']:<15} | {risco:<10} | {alerta['recomendacao']}\n"
+        arquivo.write(linha)
+
 def relatorio_json(alertas):
     """
     Gera um arquivo JSON com o relatório completo com todos os dados relevantes
@@ -39,9 +62,10 @@ def relatorio_json(alertas):
     Dados de entrada: lista alertas que contem todos os dados relevantes
     """
     try:
+        os.makedirs(os.path.dirname(caminho_json), exist_ok=True)
         # Tenta ler o conteúdo existente
         try:
-            with open('Python_e_alem/src/data/relatorio_pragas.json', 'r', encoding='utf-8') as arquivo:
+            with open(caminho_json, 'r', encoding='utf-8') as arquivo:
                 dados_existentes = json.load(arquivo)
         except (FileNotFoundError, json.JSONDecodeError):
             dados_existentes = []
@@ -50,11 +74,12 @@ def relatorio_json(alertas):
         dados_existentes.extend(alertas)
 
         # Salva o conteúdo atualizado
-        with open('Python_e_alem/src/data/relatorio_pragas.json', 'w', encoding='utf-8') as arquivo:
+        with open(caminho_json, 'w', encoding='utf-8') as arquivo:
             json.dump(dados_existentes, arquivo, ensure_ascii=False, indent=4)
+
     except Exception as e:
         print(f"\033[1;31mErro ao salvar relatório JSON: {e}\033[m")
-
+        
 def exibir_relatorio():
     """
     Exibe o relatorio completo
