@@ -161,7 +161,7 @@ elif fase_selecionada == "Fase 3 - IoT":
         st.metric("Umidade (%)", f"{dados['umidade']}%")
 
     with col2:
-        st.metric("pH do Solo", dados["ph"])
+        st.metric("pH do Solo", dados["pH"])
 
     with col3:
         st.metric("Bomba de Irrigação", dados["bomba_status"])
