@@ -163,8 +163,10 @@ elif fase_selecionada == "Fase 3 - IoT":
     with col2:
         st.metric("pH do Solo", dados["pH"])
 
-    with col3:
-        st.metric("Bomba de Irrigação", dados["bomba_status"])
+  with col3:
+    st.metric("Bomba de Irrigação",
+              "🌊 Ligada" if dados["bomba"] else "⛔ Desligada")
+
 
     st.subheader("💊 Nutrientes")
     col4, col5 = st.columns(2)
