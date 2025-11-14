@@ -4,11 +4,6 @@ import streamlit as st
 import pandas as pd
 from datetime import datetime
 
-# Cores no terminal
-yellow = '\033[1;33m'
-red = '\033[1;31m'
-close = '\033[m'
-
 conn = oracledb.connect(
     user = "RM566269",
     password = "Fiap#2025",
