@@ -7,6 +7,7 @@ import os
 
 # Adiciona as pastas das fases ao path para importação
 sys.path.append('phase1')
+sys.path.append('phase4')
 # Futuramente: sys.path.append('phase2'), etc.
 
 # Importações das fases
@@ -16,6 +17,9 @@ try:
 except ImportError as e:
     st.error(f"Erro ao importar Fase 1: {e}")
     FASE1_PRONTA = False
+   
+# Importação da Fase 4 (sensores)
+from phase4.sensores import ler_sensores_simulado   # <<--- ADICIONADO AQUI
 
 # Configuração da página
 st.set_page_config(
@@ -144,9 +148,36 @@ elif fase_selecionada == "Fase 2 - Banco de Dados":
 
 # ==================== FASE 3 ====================
 elif fase_selecionada == "Fase 3 - IoT":
-    st.header("📡 Fase 3 - IoT e Sensores")
-    st.info("Funcionalidade em desenvolvimento...")
-    # Futuramente: from phase3 import funcoes_fase3
+    st.header("📡 Fase 3 - IoT e Sensores (Simulação da Fase 4)")
+
+    # Coleta dos dados simulados
+    dados = ler_sensores_simulado()
+
+    st.subheader("📡 Leitura Atual dos Sensores")
+
+    col1, col2, col3 = st.columns(3)
+
+    with col1:
+        st.metric("Umidade (%)", f"{dados['umidade']}%")
+
+    with col2:
+        st.metric("pH do Solo", dados["ph"])
+
+    with col3:
+        st.metric("Bomba de Irrigação", dados["bomba_status"])
+
+    st.subheader("💊 Nutrientes")
+    col4, col5 = st.columns(2)
+
+    with col4:
+        st.metric("Fósforo Detectado?", "Sim" if dados["fosforo"] else "Não")
+
+    with col5:
+        st.metric("Potássio Detectado?", "Sim" if dados["potassio"] else "Não")
+
+    st.markdown("### 📈 Detalhes Técnicos")
+    st.json(dados)
+
 
 # ==================== FASE 5 ====================
 elif fase_selecionada == "Fase 5 - Cloud":
