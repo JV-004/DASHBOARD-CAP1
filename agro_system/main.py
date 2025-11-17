@@ -202,14 +202,52 @@ elif fase_selecionada == "Fase 3 - IoT":
 # ==================== FASE 5 ====================
 elif fase_selecionada == "Fase 5 - Cloud":
     st.header("☁️ Fase 5 - Cloud Computing")
-    st.info("Funcionalidade em desenvolvimento...")
-    # Futuramente: from phase5 import funcoes_fase5
+
+    st.markdown("""
+    A Fase 5 é responsável pela parte de **Cloud Computing** do projeto,
+    incluindo deploy, infraestrutura em nuvem, containers, serviços gerenciados
+    e integração com o backend.
+
+    No momento, o módulo final da Fase 5 **ainda não foi entregue pelo time responsável**,
+    portanto esta tela será atualizada assim que o conteúdo for disponibilizado.
+
+    Quando integrado, esta tela incluirá:
+
+    ☁️ Deploy do sistema em nuvem  
+    🗄️ Serviços utilizados (S3, EC2, Lambda, etc.)  
+    🐳 Uso de containers (Docker)  
+    🔌 APIs e integrações  
+    📊 Monitoramento e logs  
+
+    """)
+
+    st.warning("⏳ Aguardando a entrega do módulo final da Fase 5 pela equipe responsável.")
+    st.image("https://cdn-icons-png.flaticon.com/512/483/483361.png", width=120)
+
 
 # ==================== FASE 6 ====================
 elif fase_selecionada == "Fase 6 - Visão Computacional":
     st.header("👁️ Fase 6 - Visão Computacional")
-    st.info("Funcionalidade em desenvolvimento...")
-    # Futuramente: from phase6 import funcoes_fase6
+
+    st.markdown("""
+    A Fase 6 é responsável por implementar recursos de **Visão Computacional** no projeto,
+    como análise de imagens, detecção de pragas, classificação de folhas ou reconhecimento
+    de padrões visuais em plantações.
+
+    No momento, o módulo oficial da Fase 6 **ainda não foi entregue pelo time responsável**, 
+    mas esta página está pronta para receber:
+
+    📷 Processamento de imagens  
+    🤖 Modelos de classificação  
+    🌿 Detecção de pragas/doenças  
+    🔍 Análise visual com Machine Learning  
+    📊 Visualização dos resultados  
+
+    """)
+
+    st.warning("⏳ Aguardando a entrega do módulo final da Fase 6 pela equipe responsável.")
+    st.image("https://cdn-icons-png.flaticon.com/512/2920/2920243.png", width=120)
+
 
 # Rodapé
 st.markdown("---")
