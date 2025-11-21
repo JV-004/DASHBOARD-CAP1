@@ -1,0 +1,8 @@
+Modelo,R²,RMSE
+Regressão Linear (baseline),0.9950,"4,394.17"
+Random Forest (tunado),0.9946,"4,592.94"
+Random Forest,0.9945,"4,598.97"
+XGBoost,0.9934,"5,038.36"
+XGBoost (tunado),0.9924,"5,240.64"
+Decision Tree,0.9919,"5,612.06"
+SVR,-0.3106,"75,130.39"
