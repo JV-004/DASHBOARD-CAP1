@@ -37,7 +37,8 @@ st.sidebar.title("Navegação")
 fase_selecionada = st.sidebar.radio(
     "Selecione a Fase:",
     ["Fase 1 - Dados e Cálculos", "Fase 2 - Banco de Dados", "Fase 3 - IoT", 
-    "Fase 5 - Cloud", "Fase 6 - Visão Computacional"]
+    "Fase 5 - Cloud", "Fase 6 - Visão Computacional",
+    "Fase 7 - Integração e banco de dados"]
 )
 
 # ==================== FASE 1 ====================
@@ -247,6 +248,81 @@ elif fase_selecionada == "Fase 6 - Visão Computacional":
 
     st.warning("⏳ Aguardando a entrega do módulo final da Fase 6 pela equipe responsável.")
     st.image("https://cdn-icons-png.flaticon.com/512/2920/2920243.png", width=120)
+
+# ============================
+# FASE 7 – Banco de Dados Oracle
+# ============================
+
+elif fase_selecionada == "Fase 7 - Banco de Dados":
+    st.header("🗄️ Fase 7 - Integração com Banco de Dados Oracle")
+
+    st.markdown("### 🔌 Conexão e Consulta de Dados")
+
+    st.markdown("""
+    Nesta fase, o sistema se conecta ao banco Oracle para consultar:
+    - 📊 Registros dos sensores (T_REGISTROS)  
+    - 🐛 Alertas de pragas (ALERTAS_PRAGAS)  
+    - ⚙️ Parâmetros definidos pelo time (T_CONFIGURACOES)  
+    """)
+
+    from db_queries import (
+        get_registros_sensores,
+        get_alertas_pragas,
+        get_configuracoes
+    )
+
+    st.divider()
+
+    # ==============================
+    #     REGISTROS DOS SENSORES
+    # ==============================
+    st.subheader("📡 Últimos Registros dos Sensores")
+
+    if st.button("Carregar Dados dos Sensores"):
+        registros = get_registros_sensores()
+        
+        if registros:
+            st.success("Dados carregados com sucesso!")
+            st.dataframe(registros)
+        else:
+            st.error("Não foi possível carregar os registros.")
+
+    st.divider()
+
+    # ==============================
+    #     ALERTAS DE PRAGAS
+    # ==============================
+    st.subheader("🐛 Alertas de Pragas Registrados")
+
+    if st.button("Carregar Alertas de Pragas"):
+        alertas = get_alertas_pragas()
+        
+        if alertas:
+            st.success("Alertas carregados!")
+            st.dataframe(alertas)
+        else:
+            st.error("Não foi possível carregar os alertas.")
+
+    st.divider()
+
+    # ==============================
+    #     CONFIGURAÇÕES
+    # ==============================
+    st.subheader("⚙️ Configurações Gerais do Sistema")
+
+    if st.button("Mostrar Configurações"):
+        conf = get_configuracoes()
+
+        if conf:
+            st.success("Configuração carregada!")
+            st.write({
+                "ID": conf[0],
+                "Limite de Umidade": conf[1],
+                "pH Mínimo": conf[2],
+                "pH Máximo": conf[3]
+            })
+        else:
+            st.error("Não foi possível carregar configurações.")
 
 
 # Rodapé
