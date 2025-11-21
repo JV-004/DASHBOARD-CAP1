@@ -1,45 +1,86 @@
 from db_connection import conectar
 
-def inserir_alerta_praga(cultura, temperatura, umidade, risco, recomendacao, cidade):
+# =============================
+# CONSULTA 1 – T_REGISTROS
+# =============================
+def get_registros_sensores(limit=20):
     conn = conectar()
     if conn is None:
-        return False
-    
-    try:
-        cur = conn.cursor()
-        cur.execute("""
-            INSERT INTO ALERTAS_PRAGAS 
-            (CULTURA, TEMPERATURA, UMIDADE, RISCO, RECOMENDACAO, DATA_REGISTRO, CIDADE)
-            VALUES (:1, :2, :3, :4, :5, SYSDATE, :6)
-        """, [cultura, temperatura, umidade, risco, recomendacao, cidade])
-        
-        conn.commit()
-        return True
+        return []
 
+    try:
+        cursor = conn.cursor()
+        cursor.execute(f"""
+            SELECT ID_REGISTRO, DATA_HORA, UMIDADE, PH, FOSFORO, POTASSIO, BOMBA_ATIVA
+            FROM T_REGISTROS
+            ORDER BY DATA_HORA DESC
+            FETCH FIRST {limit} ROWS ONLY
+        """)
+        
+        rows = cursor.fetchall()
+        return rows
+    
     except Exception as e:
-        print("Erro ao inserir alerta:", e)
-        return False
+        print("Erro ao buscar registros dos sensores:", e)
+        return []
 
     finally:
-        cur.close()
+        cursor.close()
         conn.close()
 
 
-def listar_alertas():
+# =============================
+# CONSULTA 2 – ALERTAS_PRAGAS
+# =============================
+def get_alertas_pragas(limit=20):
     conn = conectar()
     if conn is None:
         return []
-    
-    try:
-        cur = conn.cursor()
-        cur.execute("SELECT * FROM ALERTAS_PRAGAS ORDER BY DATA_REGISTRO DESC")
-        resultados = cur.fetchall()
-        return resultados
 
+    try:
+        cursor = conn.cursor()
+        cursor.execute(f"""
+            SELECT CULTURA, TEMPERATURA, UMIDADE, RISCO, RECOMENDACAO, DATA_REGISTRO, CIDADE
+            FROM ALERTAS_PRAGAS
+            ORDER BY DATA_REGISTRO DESC
+            FETCH FIRST {limit} ROWS ONLY
+        """)
+        
+        rows = cursor.fetchall()
+        return rows
+    
     except Exception as e:
-        print("Erro ao consultar alertas:", e)
+        print("Erro ao buscar alertas de pragas:", e)
         return []
 
     finally:
-        cur.close()
+        cursor.close()
+        conn.close()
+
+
+# =============================
+# CONSULTA 3 – T_CONFIGURACOES
+# =============================
+def get_configuracoes():
+    conn = conectar()
+    if conn is None:
+        return None
+
+    try:
+        cursor = conn.cursor()
+        cursor.execute("""
+            SELECT ID_CONFIG, LIMITE_UMIDADE, PH_MIN, PH_MAX
+            FROM T_CONFIGURACOES
+            WHERE ID_CONFIG = 1
+        """)
+
+        row = cursor.fetchone()
+        return row
+    
+    except Exception as e:
+        print("Erro ao buscar configurações:", e)
+        return None
+
+    finally:
+        cursor.close()
         conn.close()
