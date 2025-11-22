@@ -1,9 +1,5 @@
-from db_connection import conectar
+from db_queries import get_configuracoes
 
-conn = conectar()
-cur = conn.cursor()
-
-cur.execute("SELECT * FROM T_CONFIGURACOES")
-rows = cur.fetchall()
-
-print(rows)
+print("=== Testando Configurações ===")
+resultado = get_configuracoes()
+print("Resultado:", resultado)
