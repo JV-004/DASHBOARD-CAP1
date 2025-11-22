@@ -7,6 +7,7 @@ import os
 
 # Adiciona as pastas das fases ao path para importação
 sys.path.append('phase1')
+sys.path.append('phase2')
 sys.path.append('phase4')
 sys.path.append('phase7')
 # Futuramente: sys.path.append('phase2'), etc.
@@ -143,27 +144,23 @@ if fase_selecionada == "Fase 1 - Dados e Cálculos":
                 st.text_area("", resultado, height=200, key="resultado_r")
 
 # ==================== FASE 2 ====================
+
 elif fase_selecionada == "Fase 2 - Banco de Dados":
     st.header("🗃️ Fase 2 - Banco de Dados")
 
-    st.markdown("""
-    A Fase 2 foi responsável pela modelagem e implementação do banco de dados
-    do projeto, envolvendo tabelas, relacionamentos e persistência dos dados.
+    if not FASE2_PRONTA:
+        st.error("Módulo da Fase 2 não pôde ser importado.")
+    else:
+        st.success("Módulo carregado com sucesso!")
 
-    No entanto, o módulo final da Fase 2 **ainda não foi disponibilizado pela equipe responsável** 
-    para integração no dashboard da Fase 7.
+        if st.button("Carregar Tabelas"):
+            tabelas = carregar_tabelas()
+            st.dataframe(tabelas)
 
-    Assim que o módulo for entregue, esta página será atualizada para exibir:
+        if st.button("Executar Consultas"):
+            resultado = executar_consultas()
+            st.json(resultado)
 
-    🔹 Conexão com o banco de dados  
-    🔹 Visualização das tabelas  
-    🔹 Registros armazenados  
-    🔹 Relatórios automáticos  
-    🔹 Consultas dinâmicas  
-
-    """)
-
-    st.info("⏳ Aguardando a entrega do módulo final da Fase 2 pelo time responsável.")
     st.image("https://cdn-icons-png.flaticon.com/512/553/553416.png", width=120)
 
 
