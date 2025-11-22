@@ -63,23 +63,19 @@ def get_alertas_pragas(limit=20):
 # =============================
 def get_configuracoes():
     conn = conectar()
-    if conn is None:
-        return None
-
-    try:
+    if conn:
         cursor = conn.cursor()
         cursor.execute("""
-            SELECT ID_CONFIG, LIMITE_UMIDADE, PH_MIN, PH_MAX
+            SELECT ID_CONFIG, LIMITE_UMIDADE, PH_MIN, PH_MAX 
             FROM T_CONFIGURACOES
-            WHERE ID_CONFIG = 1
+            ORDER BY ID_CONFIG
         """)
-
         row = cursor.fetchone()
+        cursor.close()
+        conn.close()
         return row
-    
-    except Exception as e:
-        print("Erro ao buscar configurações:", e)
-        return None
+    return None
+
 
     finally:
         cursor.close()
