@@ -250,22 +250,26 @@ elif fase_selecionada == "Fase 6 - Visão Computacional":
     st.image("https://cdn-icons-png.flaticon.com/512/2920/2920243.png", width=120)
 
 # ============================
-# FASE 7 – Banco de Dados Oracle
+# FASE 7 – Integração com Banco de Dados Oracle
 # ============================
 
-elif fase_selecionada == "Fase 7 - Banco de Dados":
+elif fase_selecionada == "Fase 7 - Integração e banco de dados":
     st.header("🗄️ Fase 7 - Integração com Banco de Dados Oracle")
 
     st.markdown("### 🔌 Conexão e Consulta de Dados")
 
     st.markdown("""
-    Nesta fase, o sistema se conecta ao banco Oracle para consultar:
-    - 📊 Registros dos sensores (T_REGISTROS)  
-    - 🐛 Alertas de pragas (ALERTAS_PRAGAS)  
-    - ⚙️ Parâmetros definidos pelo time (T_CONFIGURACOES)  
+    Nesta fase, o sistema se conecta diretamente ao banco Oracle para consultar:
+
+    - 📡 **Registros dos sensores (T_REGISTROS)**  
+    - 🐛 **Alertas de pragas (ALERTAS_PRAGAS)**  
+    - ⚙️ **Configurações gerais do sistema (T_CONFIGURACOES)**  
+
+    Esses dados são fornecidos pelo módulo oficial do time responsável pela Fase 2.
     """)
 
-    from db_queries import (
+    # --- IMPORTA OS MÉTODOS DA PHASE7 ---
+    from phase7.db_queries import (
         get_registros_sensores,
         get_alertas_pragas,
         get_configuracoes
@@ -280,12 +284,12 @@ elif fase_selecionada == "Fase 7 - Banco de Dados":
 
     if st.button("Carregar Dados dos Sensores"):
         registros = get_registros_sensores()
-        
+
         if registros:
             st.success("Dados carregados com sucesso!")
             st.dataframe(registros)
         else:
-            st.error("Não foi possível carregar os registros.")
+            st.error("Não foi possível carregar os registros ou a tabela está vazia.")
 
     st.divider()
 
@@ -296,17 +300,17 @@ elif fase_selecionada == "Fase 7 - Banco de Dados":
 
     if st.button("Carregar Alertas de Pragas"):
         alertas = get_alertas_pragas()
-        
+
         if alertas:
-            st.success("Alertas carregados!")
+            st.success("Alertas carregados com sucesso!")
             st.dataframe(alertas)
         else:
-            st.error("Não foi possível carregar os alertas.")
+            st.warning("Nenhum alerta encontrado ou erro ao consultar o banco.")
 
     st.divider()
 
     # ==============================
-    #     CONFIGURAÇÕES
+    #     CONFIGURAÇÕES DO SISTEMA
     # ==============================
     st.subheader("⚙️ Configurações Gerais do Sistema")
 
@@ -314,15 +318,15 @@ elif fase_selecionada == "Fase 7 - Banco de Dados":
         conf = get_configuracoes()
 
         if conf:
-            st.success("Configuração carregada!")
-            st.write({
-                "ID": conf[0],
-                "Limite de Umidade": conf[1],
+            st.success("Configurações carregadas!")
+            st.json({
+                "ID da Configuração": conf[0],
+                "Limite de Umidade (%)": conf[1],
                 "pH Mínimo": conf[2],
                 "pH Máximo": conf[3]
             })
         else:
-            st.error("Não foi possível carregar configurações.")
+            st.error("Não foi possível carregar as configurações.")
 
 
 # Rodapé
