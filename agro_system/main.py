@@ -19,6 +19,15 @@ try:
 except ImportError as e:
     st.error(f"Erro ao importar Fase 1: {e}")
     FASE1_PRONTA = False
+    
+    # Importação da Fase 2
+try:
+    from phase2.main import carregar_tabelas, executar_consultas
+    FASE2_PRONTA = True
+except ImportError as e:
+    st.error(f"Erro ao importar Fase 2: {e}")
+    FASE2_PRONTA = False
+
    
 # Importação da Fase 4 (sensores)
 from phase4.sensores import ler_sensores_simulado   # <<--- ADICIONADO AQUI
