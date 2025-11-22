@@ -8,6 +8,7 @@ import os
 # Adiciona as pastas das fases ao path para importação
 sys.path.append('phase1')
 sys.path.append('phase4')
+sys.path.append('phase7')
 # Futuramente: sys.path.append('phase2'), etc.
 
 # Importações das fases
