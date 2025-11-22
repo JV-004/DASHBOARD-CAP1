@@ -13,14 +13,15 @@ sys.path.append('phase7')
 # Futuramente: sys.path.append('phase2'), etc.
 
 # Importações das fases
+# ========================= FASE 1 ============================
 try:
     from phase1 import adicionar_dados, listar_dados, calcular_manejo, executar_analise
     FASE1_PRONTA = True
 except ImportError as e:
     st.error(f"Erro ao importar Fase 1: {e}")
     FASE1_PRONTA = False
-    
-    # Importação da Fase 2
+
+# ========================= FASE 2 ============================
 try:
     from phase2.main import carregar_tabelas, executar_consultas
     FASE2_PRONTA = True
@@ -28,7 +29,6 @@ except ImportError as e:
     st.error(f"Erro ao importar Fase 2: {e}")
     FASE2_PRONTA = False
 
-   
 # Importação da Fase 4 (sensores)
 from phase4.sensores import ler_sensores_simulado   # <<--- ADICIONADO AQUI
 
