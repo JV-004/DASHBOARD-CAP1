@@ -40,7 +40,7 @@ from xgboost import XGBRegressor
 # ======================================================
 
 # Célula 01
-st.markdown("# Previsão de Rendimento de Safra - PBL Fase 04")
+st.markdown("# Previsão de Rendimento de Safra - PBL Fase 05")
 st.markdown('## Introdução')
 st.markdown('''
             Este notebook apresenta um pipeline completo para previsão de rendimento de safra, incluindo análise exploratória de dados (EDA), clusterização, modelagem preditiva e comparação de modelos.\n

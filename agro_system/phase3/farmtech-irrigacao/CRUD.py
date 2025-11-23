@@ -4,6 +4,9 @@ import streamlit as st
 import pandas as pd
 from datetime import datetime
 
+from envio_email import enviar_alerta_bomba_ligada 
+from servico_relatorio import enviar_relatorio_por_email
+
 conn = oracledb.connect(
     user = "RM566269",
     password = "Fiap#2025",
@@ -111,6 +114,10 @@ umidade, pH, fosforo, potassio, bomba_ativa = registro(prefix = 'main')
 
 if st.button('Armazenar dados obtidos'):
     enviar()
+    if bomba_ativa == 1:
+        enviar_alerta_bomba_ligada(umidade, pH, fosforo, potassio)
+        st.info("Alerta de 'Bomba Ligada' enviado para seu e-mail")
+        time.sleep(5)
     st.rerun()
 
 cursor.execute("SELECT * FROM T_Registros")
@@ -119,6 +126,13 @@ columns = [desc[0] for desc in cursor.description]
 df = pd.DataFrame(rows, columns=columns)
 st.dataframe(df)  
 
+if st.button('📧 Enviar Relatório Completo por E-mail'):
+    with st.spinner('Preparando e enviando relatório...'):
+        sucesso = enviar_relatorio_por_email(df)
+        if sucesso:
+            st.success('✅ Relatório enviado com sucesso para o seu e-mail!')
+        else:
+            st.error('❌ Falha ao enviar o relatório. Verifique os logs do console.')
 
 def delete_registro(cursor, conn):
     try:
